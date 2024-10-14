@@ -1,0 +1,4 @@
+1. npm install
+2.
+    Start the backend: dotnet run
+    Start the frontend: npm run dev

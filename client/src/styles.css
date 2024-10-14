@@ -1,0 +1,83 @@
+.checkers-board {
+    display: inline-block;
+    border: 2px solid black;
+  }
+  
+  .checkers-row {
+    display: flex;
+  }
+  
+  .checker-square {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .white {
+    background-color: #fff0ac;
+  }
+  
+  .black {
+    background-color: #8b4513; 
+  }
+  
+  .checker {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+  }
+  
+  .player1 {
+    background-color: red;
+  }
+  
+  .player2 {
+    background-color: black;
+  }
+  
+  .player1-text {
+    color: red;
+}
+
+.player2-text {
+    color: black;
+}
+  .selected {
+    border: 3px solid yellow; 
+    width: 55%; 
+    height: 55%;
+  }
+  
+  .turn-indicator {
+    margin-top: 10px;
+    font-size: larger;
+    font-family: sans-serif;
+  }
+  
+  .game-message {
+    margin-left: 130px;
+    margin-top: 75px;
+    font-weight: bold;
+    color: green;
+  }
+  
+
+  .reset-button {
+    left: 15%;
+    margin-top: 50%;
+    position: absolute;
+    padding: 10px 20px;
+    background-color: #f44336; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.reset-button:hover {
+    background-color: #d32f2f; 
+}
